@@ -1,0 +1,12 @@
+nume = []
+print ("¿Cuantos numeros ingresa? ")
+n = int(input())
+i=0
+while i < n:
+    print ("Valor numero. ",i+1)
+    Valor = float(input())
+    nume.append(Valor)
+    i+=1
+
+promedio = sum(nume / len(nume))
+print ("el promedio es: ",promedio)
